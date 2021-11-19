@@ -1,0 +1,66 @@
+<svg
+   width="180px"
+   height="160px"
+   viewBox="-10 -10 180 160"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink= "http://www.w3.org/1999/xlink"
+>
+   <style>
+
+      line {
+         stroke: #005b97;
+         stroke-dashoffset: 0;
+         stroke-linecap: round;
+         animation: line-animation 1.5s linear infinite;
+      }
+
+      .animated-triangle {
+         transform-origin: center;
+         animation: triangle-animation 1.5s ease infinite;
+      }
+
+      .animated-outer-line { stroke-dasharray: 250; }
+      .animated-inner-line { stroke-dasharray: 400, 100; }
+
+      @keyframes line-animation {
+         100% { stroke-dashoffset: 500; }
+      }
+
+      @keyframes triangle-animation {
+         0% { transform: rotate( 0deg ); }
+         5% { transform: rotate( 5deg ); }
+         10% { transform: rotate( -5deg ); }
+         15% { transform: rotate( 0deg ); }
+      }
+
+   </style>
+   <g class="animated-triangle">
+      <line class="animated-outer-line" x1="0.11458959" x2="158.86459" y1="137.64944" y2="137.64944" />
+      <line class="animated-outer-line" x2="79.489586" x1="158.86459" y2="0.066109188" y1="137.64944" />
+      <line class="animated-outer-line" x1="79.489586" x2="0.11458959" y1="0.066109188" y2="137.64944" />
+      <line class="animated-inner-line" x1="79.489586" x2="39.80209" y1="0.066109188" y2="137.64944" />
+      <line class="animated-inner-line" x1="79.489586" x2="79.489586" y1="0.066109188" y2="137.64944" />
+      <line class="animated-inner-line" x1="79.489586" x2="119.17709" y1="0.066109188" y2="137.64944" />
+      <line class="animated-inner-line" x1="158.85976" x2="59.552856" y1="137.65411" y2="34.492065" />
+      <line class="animated-inner-line" x1="158.86121" x2="39.710552" y1="137.65491" y2="68.863243" />
+      <line class="animated-inner-line" x1="158.8629" x2="19.868492" y1="137.65611" y2="103.23483" />
+      <line class="animated-inner-line" x1="0.1147107" x2="139.10913" y1="137.64958" y2="103.22829" />
+      <line class="animated-inner-line" x1="0.11473493" x2="119.26539" y1="137.64954" y2="68.857872" />
+      <line class="animated-inner-line" x1="0.11475512" x2="99.421661" y1="137.64949" y2="34.487453" />
+      <line class="animated-inner-line" x1="52.995155" x2="105.91393" y1="45.967674" y2="137.69353" />
+      <line class="animated-inner-line" x1="105.95052" x2="52.998329" y1="45.909664" y2="137.69348" />
+      <line class="animated-inner-line" x1="26.374199" x2="132.41499" y1="91.942253" y2="91.942253" />
+      <line class="animated-inner-line" x1="63.558266" x2="127.02493" y1="27.667099" y2="137.67595" />
+      <line class="animated-inner-line" x1="95.420898" x2="31.95426" y1="27.600925" y2="137.60977" />
+      <line class="animated-inner-line" x1="16.022942" x2="142.95624" y1="110.06171" y2="110.06171" />
+      <line class="animated-inner-line" x1="31.824545" x2="63.683193" y1="82.467369" y2="137.68903" />
+      <line class="animated-inner-line" x1="127.069" x2="95.29586" y1="82.615685" y2="137.68909" />
+      <line class="animated-inner-line" x1="47.583591" x2="111.3159" y1="55.278248" y2="55.278248" />
+      <line class="animated-inner-line" x1="47.672508" x2="47.672508" y1="55.249493" y2="137.58333" />
+      <line class="animated-inner-line" x1="111.04565" x2="111.04565" y1="55.249481" y2="137.58333" />
+      <line class="animated-inner-line" x1="126.73562" x2="55.823322" y1="82.285614" y2="41.344379" />
+      <line class="animated-inner-line" x1="94.968651" x2="24.056349" y1="137.42201" y2="96.480766" />
+      <line class="animated-inner-line" x1="31.564989" x2="103.8415" y1="83.056664" y2="41.327805" />
+      <line class="animated-inner-line" x1="62.980118" x2="135.25662" y1="138.02318" y2="96.294319" />
+   </g>
+</svg>
